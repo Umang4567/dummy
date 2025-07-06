@@ -1,0 +1,22 @@
+2025-07-06 19:48:58 [INFO]: Gemini service initialized
+{
+  "model": "gemini-2.0-flash-exp"
+}
+2025-07-06 19:48:58 [INFO]: Server started successfully
+{
+  "port": 5000,
+  "environment": "development",
+  "healthCheck": "http://localhost:5000/health",
+  "apiEndpoints": "http://localhost:5000/api"
+}
+2025-07-06 19:50:19 [INFO]: Gemini service initialized
+{
+  "model": "gemini-2.0-flash-exp"
+}
+2025-07-06 19:50:19 [INFO]: Server started successfully
+{
+  "port": 5000,
+  "environment": "development",
+  "healthCheck": "http://localhost:5000/health",
+  "apiEndpoints": "http://localhost:5000/api"
+}
