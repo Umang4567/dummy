@@ -1,14 +1,9 @@
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const bcrypt = require('bcryptjs');
 const rateLimit = require('express-rate-limit');
 
-dotenv.config();
-
 const logger = require('./utils/logger');
-const connectDB = require('./config/database');
-const { validateUserRegister, validateUserLogin } = require('./middleware/validation');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -21,24 +16,6 @@ app.use(cors({
   origin: process.env.CLIENT_URL || 'http://localhost:3000',
   credentials: true
 }));
-
-// Rate limiting for authentication endpoints
-const authLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 5, // limit each IP to 5 requests per windowMs
-  message: {
-    error: 'Too many authentication attempts, please try again later.',
-    metadata: {
-      timestamp: new Date().toISOString()
-    }
-  },
-  standardHeaders: true,
-  legacyHeaders: false,
-});
-
-// Apply rate limiting to auth routes
-app.use('/api/users/login', authLimiter);
-app.use('/api/users/register', authLimiter);
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
@@ -213,9 +190,6 @@ app.use('*', (req, res) => {
 // Start server
 const startServer = async () => {
   try {
-    // Connect to database
-    await connectDB();
-
     // Start listening
     app.listen(PORT, () => {
       logger.info(`Server running on port ${PORT}`, {
@@ -263,7 +237,7 @@ process.on('uncaughtException', (error) => {
   process.exit(1);
 });
 
-// Handle unhandled promise rejections
+// Handle unhandled promise rejections 
 process.on('unhandledRejection', (reason, promise) => {
   logger.error('Unhandled Rejection', {
     reason: reason,

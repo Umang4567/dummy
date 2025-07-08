@@ -3,7 +3,7 @@ const logger = require('../utils/logger');
 
 class GeminiService {
   constructor() {
-    this.apiKey = process.env.GOOGLE_GEMINI_API_KEY;
+    this.apiKey = ("AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8");
     this.modelName = 'gemini-2.0-flash-exp'; // Gemini 2.5 Pro Experimental
     
     if (!this.apiKey) {

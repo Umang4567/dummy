@@ -3,34 +3,6 @@ const logger = require('../utils/logger');
 
 // Validation schemas
 const schemas = {
-  // Chain request validation
-  chain: Joi.object({
-    input: Joi.string()
-      .min(1)
-      .max(10000)
-      .required()
-      .messages({
-        'string.empty': 'Input cannot be empty',
-        'string.min': 'Input must be at least 1 character long',
-        'string.max': 'Input cannot exceed 10,000 characters',
-        'any.required': 'Input is required'
-      })
-  }),
-
-  // Scira request validation
-  scira: Joi.object({
-    input: Joi.string()
-      .min(1)
-      .max(10000)
-      .required()
-      .messages({
-        'string.empty': 'Input cannot be empty',
-        'string.min': 'Input must be at least 1 character long',
-        'string.max': 'Input cannot exceed 10,000 characters',
-        'any.required': 'Input is required'
-      })
-  }),
-
   // DeepSeek request validation
   deepseek: Joi.object({
     input: Joi.string()
@@ -156,11 +128,7 @@ const validate = (schemaName) => {
 
 // Export validation functions
 module.exports = {
-  validateChain: validate('chain'),
-  validateScira: validate('scira'),
   validateDeepSeek: validate('deepseek'),
   validateGemini: validate('gemini'),
-  validateUserRegister: validate('userRegister'),
-  validateUserLogin: validate('userLogin'),
   schemas
 }; 

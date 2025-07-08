@@ -1,0 +1,453 @@
+2025-07-07 17:40:10 [ERROR]: Gemini API error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at handleResponseNotOk (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async GeminiService.generateResponse (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\gemini.js:38:22)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:275:22
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+  "processingTime": 527,
+  "model": "gemini-2.0-flash-exp"
+}
+2025-07-07 17:40:10 [ERROR]: Gemini API Error
+Error: Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"API_KEY_INVALID","domain":"googleapis.com","metadata":{"service":"generativelanguage.googleapis.com"}},{"@type":"type.googleapis.com/google.rpc.LocalizedMessage","locale":"en-US","message":"API key not valid. Please pass a valid API key."}]
+    at GeminiService.generateResponse (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\gemini.js:74:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:275:22
+{
+  "error": "Gemini API error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [400 Bad Request] API key not valid. Please pass a valid API key. [{\"@type\":\"type.googleapis.com/google.rpc.ErrorInfo\",\"reason\":\"API_KEY_INVALID\",\"domain\":\"googleapis.com\",\"metadata\":{\"service\":\"generativelanguage.googleapis.com\"}},{\"@type\":\"type.googleapis.com/google.rpc.LocalizedMessage\",\"locale\":\"en-US\",\"message\":\"API key not valid. Please pass a valid API key.\"}]",
+  "totalTime": 530,
+  "ip": "::1"
+}
+2025-07-07 18:04:43 [ERROR]: DeepSeek API Error
+AxiosError: Request failed with status code 404
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at Unzip.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at Unzip.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Request failed with status code 404",
+  "totalTime": 461,
+  "ip": "::1"
+}
+2025-07-07 18:09:22 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 15,
+  "ip": "::1"
+}
+2025-07-07 18:09:31 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 2,
+  "ip": "::1"
+}
+2025-07-07 18:14:42 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 10,
+  "ip": "::1"
+}
+2025-07-07 18:15:52 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 6,
+  "ip": "::1"
+}
+2025-07-07 18:28:40 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 21,
+  "ip": "::1"
+}
+2025-07-07 18:33:26 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 11,
+  "ip": "::1"
+}
+2025-07-08 19:45:46 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 15,
+  "ip": "::1"
+}
+2025-07-08 19:56:04 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 2,
+  "ip": "::1"
+}
+2025-07-08 19:59:14 [ERROR]: DeepSeek API Error
+TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at dispatchHttpRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2805:20)
+    at C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2725:5
+    at new Promise (<anonymous>)
+    at wrapAsync (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2705:10)
+    at http (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2743:10)
+    at Axios.dispatchRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4120:10)
+    at Axios._request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4420:33)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4275:25)
+    at Axios.httpMethod [as post] (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4459:19)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Invalid URL",
+  "totalTime": 2,
+  "ip": "::1"
+}
+2025-07-08 20:10:44 [ERROR]: DeepSeek API Error
+Error: getaddrinfo ENOTFOUND sk-297de3edf5674948ae326af89244347b.deepseek.com
+    at AxiosError.from (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:863:14)
+    at RedirectableRequest.handleRequestError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3191:25)
+    at RedirectableRequest.emit (node:events:530:35)
+    at eventHandlers.<computed> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\follow-redirects\index.js:49:24)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:104:11)
+    at TLSSocket.socketErrorListener (node:_http_client:518:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "getaddrinfo ENOTFOUND sk-297de3edf5674948ae326af89244347b.deepseek.com",
+  "totalTime": 258,
+  "ip": "::1"
+}
+2025-07-08 20:22:26 [ERROR]: DeepSeek API Error
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:39:24
+{
+  "error": "Request failed with status code 401",
+  "totalTime": 247,
+  "ip": "::1"
+}
+2025-07-08 20:26:44 [ERROR]: DeepSeek API (via OpenRouter) Error
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:41:24
+{
+  "error": "Request failed with status code 401",
+  "totalTime": 162,
+  "ip": "::1"
+}
+2025-07-08 20:30:29 [ERROR]: DeepSeek API (via OpenRouter) Error
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:41:24
+{
+  "error": "Request failed with status code 401",
+  "totalTime": 224,
+  "ip": "::1"
+}
+2025-07-08 21:04:02 [ERROR]: Google Gemini API key not found in environment variables
+2025-07-08 21:04:02 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "GOOGLE_GEMINI_API_KEY is required"
+}
+2025-07-08 21:05:51 [ERROR]: Google Gemini API key not found in environment variables
+2025-07-08 21:05:51 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "GOOGLE_GEMINI_API_KEY is required"
+}
+2025-07-08 21:07:23 [ERROR]: Google Gemini API key not found in environment variables
+2025-07-08 21:07:23 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "GOOGLE_GEMINI_API_KEY is required"
+}
+2025-07-08 21:08:51 [ERROR]: Google Gemini API key not found in environment variables
+2025-07-08 21:08:51 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "GOOGLE_GEMINI_API_KEY is required"
+}
+2025-07-08 21:11:14 [ERROR]: Google Gemini API key not found in environment variables
+2025-07-08 21:11:14 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "GOOGLE_GEMINI_API_KEY is required"
+}
+2025-07-08 21:13:53 [ERROR]: Failed to initialize Gemini service
+{
+  "error": "AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8 is not defined"
+}
+2025-07-08 21:26:05 [ERROR]: DeepSeek API (via OpenRouter) Error
+AxiosError: Request failed with status code 404
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at Unzip.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at Unzip.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:41:24
+{
+  "error": "Request failed with status code 404",
+  "totalTime": 627,
+  "ip": "::1"
+}
+2025-07-08 21:50:59 [ERROR]: DeepSeek API (via OpenRouter) Error
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:41:24
+{
+  "error": "Request failed with status code 401",
+  "totalTime": 558,
+  "ip": "::1"
+}
+2025-07-08 21:52:13 [ERROR]: DeepSeek API (via OpenRouter) Error
+AxiosError: Request failed with status code 401
+    at settle (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:2053:12)
+    at IncomingMessage.handleStreamEnd (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:3170:11)
+    at IncomingMessage.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+    at Axios.request (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\axios\dist\node\axios.cjs:4280:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:41:24
+{
+  "error": "Request failed with status code 401",
+  "totalTime": 581,
+  "ip": "::1"
+}
+2025-07-08 22:07:15 [ERROR]: DeepSeek API Error
+Error: 402 Insufficient Balance
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:68:16)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "402 Insufficient Balance",
+  "totalTime": 1566,
+  "ip": "::1"
+}
+2025-07-08 22:08:36 [ERROR]: DeepSeek API Error
+Error: 400 Model Not Exist
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:45:20)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "400 Model Not Exist",
+  "totalTime": 1126,
+  "ip": "::1"
+}
+2025-07-08 22:09:10 [ERROR]: DeepSeek API Error
+Error: 400 Model Not Exist
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:45:20)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "400 Model Not Exist",
+  "totalTime": 827,
+  "ip": "::1"
+}
+2025-07-08 22:10:59 [ERROR]: DeepSeek API Error
+Error: 404 status code (no body)
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:54:20)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "404 status code (no body)",
+  "totalTime": 657,
+  "ip": "::1"
+}
+2025-07-08 22:12:56 [ERROR]: DeepSeek API Error
+Error: 402 Insufficient Balance
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:68:16)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "402 Insufficient Balance",
+  "totalTime": 1361,
+  "ip": "::1"
+}
+2025-07-08 22:15:18 [ERROR]: DeepSeek API Error
+Error: 400 Model Not Exist
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:45:20)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:40:24
+{
+  "error": "400 Model Not Exist",
+  "totalTime": 1013,
+  "ip": "::1"
+}
+2025-07-08 22:17:16 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 400 deepseek/deepseek-chat-v3-32k is not a valid model ID
+    at APIError.generate (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\core\error.js:45:20)
+    at OpenAI.makeStatusError (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:37:24
+{
+  "error": "400 deepseek/deepseek-chat-v3-32k is not a valid model ID",
+  "totalTime": 2134,
+  "ip": "::1"
+}
+2025-07-08 22:23:52 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:104:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 483,
+  "ip": "::1"
+}

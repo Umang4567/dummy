@@ -10,17 +10,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A secure backend server for the Nexus AI application with enhanced password security and validation.",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "axios": "^1.10.0",
-    "bcryptjs": "^2.4.3",
+    "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
-    "dotenv": "^17.0.1",
+    "dotenv": "^17.1.0",
     "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
     "joi": "^17.12.0",
-    "mongoose": "^8.16.1",
+    "openai": "^5.8.3",
     "winston": "^3.11.0"
   }
 }

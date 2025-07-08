@@ -29,7 +29,6 @@ A secure backend server for the Nexus AI application with enhanced password secu
 ## 📋 Prerequisites
 
 - Node.js (v14 or higher)
-- MongoDB (local or cloud instance)
 - npm or yarn
 
 ## 🛠️ Installation
@@ -54,7 +53,6 @@ A secure backend server for the Nexus AI application with enhanced password secu
    ```env
    PORT=5000
    NODE_ENV=development
-   MONGODB_URI=mongodb://localhost:27017/nexus-ai
    CLIENT_URL=http://localhost:3000
    GOOGLE_API_KEY=your_google_api_key_here
    ```
@@ -130,12 +128,6 @@ Login with email and password.
 
 ### AI Endpoints
 
-#### POST `/api/chain`
-Chain request with Scira + DeepSeek integration.
-
-#### POST `/api/scira`
-Scira AI model request.
-
 #### POST `/api/deepseek`
 DeepSeek AI model request.
 
@@ -209,7 +201,6 @@ The server uses Winston for comprehensive logging:
 |----------|-------------|---------|
 | `PORT` | Server port | 5000 |
 | `NODE_ENV` | Environment mode | development |
-| `MONGODB_URI` | MongoDB connection string | - |
 | `CLIENT_URL` | Frontend URL for CORS | http://localhost:3000 |
 | `GOOGLE_API_KEY` | Google Gemini API key | - |
 | `LOG_LEVEL` | Logging level | info |

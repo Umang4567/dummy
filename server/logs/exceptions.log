@@ -1,0 +1,2999 @@
+2025-07-07 17:36:48 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Mon Jul 07 2025 17:36:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20456,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49934336,
+      "heapTotal": 17596416,
+      "heapUsed": 12113192,
+      "external": 2167230,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 2139142.953
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-07 17:36:51 [ERROR]: uncaughtException: Cannot find module '../models/User'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module '../models/User'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:11:14)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module '../models/User'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:11:14)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Mon Jul 07 2025 17:36:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24256,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61612032,
+      "heapTotal": 32538624,
+      "heapUsed": 13568856,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 2139145.625
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-07 18:15:18 [ERROR]: uncaughtException: Unexpected token '}'
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:43
+          Authorization: `Bearer ${process.env.}`,
+                                               ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:15:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:43
+          Authorization: `Bearer ${process.env.}`,
+                                               ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:15:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Mon Jul 07 2025 18:15:18 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 30520,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49000448,
+      "heapTotal": 18120704,
+      "heapUsed": 12187480,
+      "external": 2167230,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 2141452.234
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 15,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-07 18:15:19 [ERROR]: uncaughtException: Invalid or unexpected token
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:43
+          Authorization: `Bearer ${process.env.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}`,
+                                                        ^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:15:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:43
+          Authorization: `Bearer ${process.env.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}`,
+                                                        ^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:15:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Mon Jul 07 2025 18:15:19 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15716,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49020928,
+      "heapTotal": 18120704,
+      "heapUsed": 12184656,
+      "external": 2167230,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 2141453.578
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 15,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:48:38 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:48:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 15572,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61136896,
+      "heapTotal": 31752192,
+      "heapUsed": 14982504,
+      "external": 3276764,
+      "arrayBuffers": 65676
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4325.75
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:48:50 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:48:50 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13640,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61083648,
+      "heapTotal": 32014336,
+      "heapUsed": 13556880,
+      "external": 3276764,
+      "arrayBuffers": 65676
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4338.203
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:49:41 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:49:41 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6884,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61579264,
+      "heapTotal": 32014336,
+      "heapUsed": 13564216,
+      "external": 3276764,
+      "arrayBuffers": 65676
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4388.718
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:50:46 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:50:46 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 22556,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61272064,
+      "heapTotal": 31752192,
+      "heapUsed": 15527528,
+      "external": 3276764,
+      "arrayBuffers": 65676
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4454.093
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:52:52 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:52:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 14640,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61607936,
+      "heapTotal": 32014336,
+      "heapUsed": 15208944,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4580.25
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:54:40 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:54:40 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19272,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 60248064,
+      "heapTotal": 32276480,
+      "heapUsed": 13828624,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4687.671
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 20:55:33 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 20:55:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 16036,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61751296,
+      "heapTotal": 32014336,
+      "heapUsed": 13773512,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 4741.375
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:05:36 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:14:16)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:05:36 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7832,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61890560,
+      "heapTotal": 32276480,
+      "heapUsed": 13445696,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5343.781
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "function": null,
+      "line": 14,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:15:56 [ERROR]: uncaughtException: Unexpected token '}'
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:51
+          Authorization: `Bearer ${}`,
+                                   ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:51
+          Authorization: `Bearer ${}`,
+                                   ^
+
+SyntaxError: Unexpected token '}'
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:15:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 848,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50204672,
+      "heapTotal": 17596416,
+      "heapUsed": 12056728,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5964.328
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:16:07 [ERROR]: uncaughtException: Invalid or unexpected token
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:51
+          Authorization: `Bearer ${sk-86cf0bc35259458d9077499c3ca588a1}`,
+                                      ^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:51
+          Authorization: `Bearer ${sk-86cf0bc35259458d9077499c3ca588a1}`,
+                                      ^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:16:07 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19320,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49860608,
+      "heapTotal": 17596416,
+      "heapUsed": 11928248,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 5974.937
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:28:34 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:28:34 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13484,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 60981248,
+      "heapTotal": 32276480,
+      "heapUsed": 13445432,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 6721.953
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:29:06 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:29:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 20164,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 59162624,
+      "heapTotal": 32014336,
+      "heapUsed": 14002592,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 6754.343
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:30:07 [ERROR]: uncaughtException: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module 'openai'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\services\deepseek.js:1:20)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\routes\\api.js",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:30:07 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8500,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 61603840,
+      "heapTotal": 32014336,
+      "heapUsed": 13533168,
+      "external": 3399047,
+      "arrayBuffers": 65852
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 6814.812
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\services\\deepseek.js",
+      "function": null,
+      "line": 1,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-08 21:45:13 [ERROR]: uncaughtException: Invalid or unexpected token
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:46
+            content": input
+                   ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:46
+            content": input
+                   ^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Tue Jul 08 2025 21:45:13 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5656,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48668672,
+      "heapTotal": 17858560,
+      "heapUsed": 11942240,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 7720.937
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-08 22:21:52 [ERROR]: uncaughtException: missing ) after argument list
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:29
+const genAI = new GoogleGenerativeAI(AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8''); // 🔁 Paste your Gemini API key here
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:29
+const genAI = new GoogleGenerativeAI(AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8''); // 🔁 Paste your Gemini API key here
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Tue Jul 08 2025 22:21:52 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 7344,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50507776,
+      "heapTotal": 17596416,
+      "heapUsed": 12008056,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 9920.375
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+2025-07-08 22:22:04 [ERROR]: uncaughtException: missing ) after argument list
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:29
+const genAI = new GoogleGenerativeAI(AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8''); // 🔁 Paste your Gemini API key here
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\routes\api.js:29
+const genAI = new GoogleGenerativeAI(AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8''); // 🔁 Paste your Gemini API key here
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at wrapSafe (node:internal/modules/cjs/loader:1486:18)
+    at Module._compile (node:internal/modules/cjs/loader:1528:20)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:12:19)
+{
+  "error": {},
+  "exception": true,
+  "date": "Tue Jul 08 2025 22:22:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 19000,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50589696,
+      "heapTotal": 17596416,
+      "heapUsed": 11991464,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 9931.703
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1486,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 20,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1528,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1108,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 12,
+      "method": null,
+      "native": false
+    }
+  ]
+}
