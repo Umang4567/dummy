@@ -95,18 +95,10 @@ const devLimiter = rateLimit({
 
 // Export appropriate limiter based on environment
 const getRateLimiters = () => {
-  if (process.env.NODE_ENV === 'development') {
-    return {
-      general: devLimiter,
-      ai: devLimiter,
-      chain: devLimiter
-    };
-  }
-  
   return {
-    general: generalLimiter,
-    ai: aiLimiter,
-    chain: chainLimiter
+    general: devLimiter,
+    ai: devLimiter,
+    chain: devLimiter
   };
 };
 

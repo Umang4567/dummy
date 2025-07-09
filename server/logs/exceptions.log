@@ -2997,3 +2997,4295 @@ SyntaxError: missing ) after argument list
     }
   ]
 }
+2025-07-09 00:05:00 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 00:05:00 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24912,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48795648,
+      "heapTotal": 17858560,
+      "heapUsed": 12121128,
+      "external": 2167229,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 16108.546
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 00:08:32 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 00:08:32 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23820,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48250880,
+      "heapTotal": 18120704,
+      "heapUsed": 12147216,
+      "external": 2167229,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 16319.984
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 15:57:38 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 15:57:38 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 10564,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 51642368,
+      "heapTotal": 17858560,
+      "heapUsed": 12161344,
+      "external": 2167229,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73266.062
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 15:59:57 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 15:59:57 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 26600,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49098752,
+      "heapTotal": 17596416,
+      "heapUsed": 11851408,
+      "external": 2044946,
+      "arrayBuffers": 16659
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73404.64
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:00:16 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:00:16 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 14124,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 51642368,
+      "heapTotal": 18120704,
+      "heapUsed": 12054184,
+      "external": 2167229,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73424.562
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:02:55 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:02:55 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24892,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 51040256,
+      "heapTotal": 18120704,
+      "heapUsed": 11986976,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73583.031
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:05:36 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:05:36 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25892,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49086464,
+      "heapTotal": 18120704,
+      "heapUsed": 11983512,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73743.671
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:05:51 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:05:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24040,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49373184,
+      "heapTotal": 17858560,
+      "heapUsed": 11988008,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73759
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:06:32 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:06:32 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24216,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49135616,
+      "heapTotal": 17858560,
+      "heapUsed": 11926976,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73799.703
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:06:50 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:06:50 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12324,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49283072,
+      "heapTotal": 18120704,
+      "heapUsed": 11999008,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73818.171
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:06:51 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:06:51 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24656,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49287168,
+      "heapTotal": 18120704,
+      "heapUsed": 11986648,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73819.343
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:07:01 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:07:01 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 3392,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49233920,
+      "heapTotal": 18120704,
+      "heapUsed": 11983552,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73828.984
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:07:05 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:07:05 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4576,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49135616,
+      "heapTotal": 18120704,
+      "heapUsed": 11983512,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73832.781
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:09:42 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:09:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17276,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48820224,
+      "heapTotal": 17596416,
+      "heapUsed": 11905040,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73990.109
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:09:44 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:09:44 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12064,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48779264,
+      "heapTotal": 17596416,
+      "heapUsed": 11926264,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73992.281
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:09:48 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:09:48 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 25860,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48689152,
+      "heapTotal": 18120704,
+      "heapUsed": 11909432,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 73995.875
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:09:57 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:09:57 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 23252,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48844800,
+      "heapTotal": 17858560,
+      "heapUsed": 11909144,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74004.906
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:11:02 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:11:02 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 17764,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48885760,
+      "heapTotal": 18120704,
+      "heapUsed": 12024080,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74069.75
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:11:04 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:11:04 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 24192,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49029120,
+      "heapTotal": 17858560,
+      "heapUsed": 11986696,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74072.468
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:11:06 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:11:06 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 13320,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48820224,
+      "heapTotal": 17858560,
+      "heapUsed": 11913056,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74074.312
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:11:08 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:11:08 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 9700,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48758784,
+      "heapTotal": 18120704,
+      "heapUsed": 11930328,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74076.312
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:11:46 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:11:46 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 26304,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50020352,
+      "heapTotal": 18120704,
+      "heapUsed": 11986648,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74114.093
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:13:08 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:13:08 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 2520,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50339840,
+      "heapTotal": 17858560,
+      "heapUsed": 11921616,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74196.14
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:13:23 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:13:23 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6960,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50200576,
+      "heapTotal": 18120704,
+      "heapUsed": 11929344,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74211.39
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:15:56 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\sd-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:15:56 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12012,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 48357376,
+      "heapTotal": 17596416,
+      "heapUsed": 11713688,
+      "external": 2043770,
+      "arrayBuffers": 16659
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74363.75
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\sd-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:19:26 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:19:26 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 11780,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49758208,
+      "heapTotal": 17858560,
+      "heapUsed": 11789240,
+      "external": 2043770,
+      "arrayBuffers": 16659
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74573.656
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:19:45 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:19:45 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 12228,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 50290688,
+      "heapTotal": 18120704,
+      "heapUsed": 11871984,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74592.859
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:22:18 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:22:18 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 9268,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 51453952,
+      "heapTotal": 18644992,
+      "heapUsed": 9897240,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 74745.765
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+2025-07-09 16:29:21 [ERROR]: uncaughtException: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+Error: Cannot find module './config/database'
+Require stack:
+- C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (C:\Users\Paresh\Desktop\react project\SD-INT\SD-app\server\index.js:10:19)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+{
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ]
+  },
+  "exception": true,
+  "date": "Wed Jul 09 2025 16:29:21 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 14484,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v22.14.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js"
+    ],
+    "memoryUsage": {
+      "rss": 49205248,
+      "heapTotal": 17596416,
+      "heapUsed": 12667704,
+      "external": 2166053,
+      "arrayBuffers": 16835
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 75169.531
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._resolveFilename",
+      "line": 1225,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Function._load",
+      "line": 1055,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:diagnostics_channel",
+      "function": "TracingChannel.traceSync",
+      "line": 322,
+      "method": "traceSync",
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapModuleLoad",
+      "line": 220,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1311,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "node:internal/modules/helpers",
+      "function": "require",
+      "line": 136,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "C:\\Users\\Paresh\\Desktop\\react project\\SD-INT\\SD-app\\server\\index.js",
+      "function": null,
+      "line": 10,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1554,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Object..js",
+      "line": 1706,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1289,
+      "method": "load",
+      "native": false
+    }
+  ]
+}

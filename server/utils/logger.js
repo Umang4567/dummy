@@ -18,7 +18,7 @@ const logFormat = winston.format.combine(
 
 // Create logger instance
 const logger = winston.createLogger({
-  level: process.env.LOG_LEVEL || 'info',
+  level: 'info',
   format: logFormat,
   transports: [
     // Console transport

@@ -2280,3 +2280,718 @@ Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguag
   "environment": "development"
 }
 2025-07-08 22:25:46 [INFO]: SIGINT received, shutting down gracefully
+2025-07-09 16:29:37 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:29:47 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:29:54 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:02 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:07 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:14 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:26 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:33 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:37 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:44 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:51 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:30:57 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:03 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:08 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:12 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 16:31:12 [INFO]: GET /favicon.ico
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 16:31:16 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:22 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:27 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:32 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:36 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:41 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:45 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:50 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:55 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:31:59 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:05 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:17 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:20 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:25 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:30 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:36 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:41 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:49 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:51 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:33:55 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:00 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:02 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:06 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:13 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:16 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:18 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:25 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:30 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:37 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:34:42 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:29 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:35 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:37 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:42 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:46 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:50 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:37:54 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:19 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:23 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:26 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:28 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:32 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:36 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:41 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:38:45 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:39:12 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:39:28 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:39:51 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:40:05 [INFO]: GET /api/health
+{
+  "ip": "::1",
+  "userAgent": "axios/1.10.0"
+}
+2025-07-09 16:40:05 [INFO]: POST /api/gemini
+{
+  "ip": "::1",
+  "userAgent": "axios/1.10.0"
+}
+2025-07-09 16:40:05 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 19,
+  "userAgent": "axios/1.10.0"
+}
+2025-07-09 16:40:06 [INFO]: Gemini response successful
+{
+  "totalTime": 1359,
+  "outputLength": 58
+}
+2025-07-09 16:40:06 [INFO]: POST /api/deepseek
+{
+  "ip": "::1",
+  "userAgent": "axios/1.10.0"
+}
+2025-07-09 16:40:06 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 19,
+  "userAgent": "axios/1.10.0"
+}
+2025-07-09 16:40:13 [INFO]: DeepSeek (via OpenRouter) response successful
+{
+  "totalTime": 6499,
+  "outputLength": 138
+}
+2025-07-09 16:43:19 [INFO]: SIGINT received, shutting down gracefully
+2025-07-09 16:43:26 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:45:13 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:45:49 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:46:11 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:46:38 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:46:47 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:47:07 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:48:17 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:48:28 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:49:07 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:49:26 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:49:35 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:49:40 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:49:44 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:50:41 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:50:54 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:54:55 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:55:18 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 16:57:13 [INFO]: SIGINT received, shutting down gracefully
+2025-07-09 16:57:27 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 20:22:55 [INFO]: SIGINT received, shutting down gracefully
+2025-07-09 20:28:08 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 20:30:32 [INFO]: SIGINT received, shutting down gracefully
+2025-07-09 20:31:45 [INFO]: Server running on port 5000
+{
+  "port": 5000,
+  "environment": "development"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:54 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:55 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:55 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:55 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:55 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:55 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:56 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:56 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:56 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:56 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 20:31:56 [INFO]: GET /health
+{
+  "ip": "::1",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+}
+2025-07-09 22:33:09 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:33:09 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 420,
+  "ip": "::1"
+}
+2025-07-09 22:36:59 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 2,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:37:01 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 1515,
+  "ip": "::1"
+}
+2025-07-09 22:38:05 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:38:05 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 415,
+  "ip": "::1"
+}
+2025-07-09 22:38:10 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 6,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:38:10 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 621,
+  "ip": "::1"
+}
+2025-07-09 22:39:18 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:39:19 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 342,
+  "ip": "::1"
+}
+2025-07-09 22:39:29 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:39:30 [INFO]: Gemini response successful
+{
+  "totalTime": 1648,
+  "outputLength": 461
+}
+2025-07-09 22:39:36 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 10,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:39:37 [INFO]: Gemini response successful
+{
+  "totalTime": 860,
+  "outputLength": 125
+}
+2025-07-09 22:40:08 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:40:09 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 875,
+  "ip": "::1"
+}
+2025-07-09 22:43:36 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:44:06 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 6,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:44:23 [INFO]: Gemini request received
+{
+  "ip": "::1",
+  "inputLength": 5,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:44:24 [INFO]: Gemini response successful
+{
+  "totalTime": 761,
+  "outputLength": 36
+}
+2025-07-09 22:44:28 [INFO]: DeepSeek (via OpenRouter) request received
+{
+  "ip": "::1",
+  "inputLength": 3,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+}
+2025-07-09 22:44:44 [INFO]: DeepSeek (via OpenRouter) response successful
+{
+  "totalTime": 37971,
+  "outputLength": 120
+}
+2025-07-09 22:44:49 [INFO]: DeepSeek (via OpenRouter) response successful
+{
+  "totalTime": 20997,
+  "outputLength": 217
+}

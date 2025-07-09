@@ -451,3 +451,75 @@ Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguag
   "totalTime": 483,
   "ip": "::1"
 }
+2025-07-09 22:33:09 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 420,
+  "ip": "::1"
+}
+2025-07-09 22:37:01 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 1515,
+  "ip": "::1"
+}
+2025-07-09 22:38:05 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 415,
+  "ip": "::1"
+}
+2025-07-09 22:38:10 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 621,
+  "ip": "::1"
+}
+2025-07-09 22:39:19 [ERROR]: Gemini API Error
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:414:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:387:9)
+    at async generateContent (D:\priv-workspace\SD-app\server\node_modules\@google\generative-ai\dist\index.js:832:22)
+    at async D:\priv-workspace\SD-app\server\index.js:118:20
+{
+  "error": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+  "totalTime": 342,
+  "ip": "::1"
+}
+2025-07-09 22:40:09 [ERROR]: DeepSeek API (via OpenRouter) Error
+Error: 401 No auth credentials found
+    at APIError.generate (D:\priv-workspace\SD-app\server\node_modules\openai\core\error.js:48:20)
+    at OpenAI.makeStatusError (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:158:32)
+    at OpenAI.makeRequest (D:\priv-workspace\SD-app\server\node_modules\openai\client.js:301:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async D:\priv-workspace\SD-app\server\index.js:60:24
+{
+  "error": "401 No auth credentials found",
+  "totalTime": 875,
+  "ip": "::1"
+}

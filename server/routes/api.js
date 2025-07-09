@@ -3,22 +3,24 @@ const router = express.Router();
 const { OpenAI } = require('openai');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-// Middleware
-const { validateDeepSeek, validateGemini } = require('../middleware/validation');
-const { getRateLimiters } = require('../middleware/rateLimit');
+// Middleware (disabled temporarily for debugging)
+// const { validateDeepSeek, validateGemini } = require('../middleware/validation');
+// const { getRateLimiters } = require('../middleware/rateLimit');
 const logger = require('../utils/logger');
 
-// Rate limiter
-const { ai } = getRateLimiters();
+// Rate limiter (disabled)
+// const { ai } = getRateLimiters();
 
 // ===============================
 // OpenRouter + DeepSeek Setup
 // ===============================
+const DEEPSEEK_API_KEY = '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';
+
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: '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', // 🔁 Paste your OpenRouter API key here
+  apiKey: DEEPSEEK_API_KEY,
   defaultHeaders: {
-    'HTTP-Referer': 'http://localhost:3000', // 🔁 Replace with your frontend domain if needed
+    'HTTP-Referer': 'http://localhost:3000',
     'X-Title': 'My AI App',
   },
 });
@@ -26,23 +28,40 @@ const openai = new OpenAI({
 // ===============================
 // Gemini Setup
 // ===============================
-const genAI = new GoogleGenerativeAI('AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8'); // 🔁 Paste your Gemini API key here
-const geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+const GEMINI_API_KEY = 'AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8';
+
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+
+// ===============================
+// GET /health - API Health Check
+// ===============================
+router.get('/health', (req, res) => {
+  res.json({
+    status: 'API is running',
+    timestamp: new Date().toISOString(),
+    endpoints: {
+      gemini: '/api/gemini',
+      deepseek: '/api/deepseek',
+    },
+  });
+});
 
 // ===============================
 // POST /deepseek
 // ===============================
-router.post('/deepseek', ai, validateDeepSeek, async (req, res) => {
+router.post('/deepseek', async (req, res) => {
   const { input } = req.body;
   const startTime = Date.now();
 
-  logger.info('DeepSeek (via OpenRouter) request received', {
+  logger.info('DeepSeek request received', {
     ip: req.ip,
-    inputLength: input.length,
+    inputLength: input?.length,
     userAgent: req.get('User-Agent'),
   });
 
   try {
+    console.log("⚙️ Calling OpenRouter...");
     const completion = await openai.chat.completions.create({
       model: 'deepseek/deepseek-r1:free',
       messages: [
@@ -51,10 +70,10 @@ router.post('/deepseek', ai, validateDeepSeek, async (req, res) => {
       ],
     });
 
-    const output = completion.choices?.[0]?.message?.content || 'No response';
+    const output = completion?.choices?.[0]?.message?.content || 'No response';
     const totalTime = Date.now() - startTime;
 
-    logger.info('DeepSeek (via OpenRouter) response successful', {
+    logger.info('✅ DeepSeek response successful', {
       totalTime,
       outputLength: output.length,
     });
@@ -69,15 +88,16 @@ router.post('/deepseek', ai, validateDeepSeek, async (req, res) => {
   } catch (error) {
     const totalTime = Date.now() - startTime;
 
-    logger.error('DeepSeek API (via OpenRouter) Error', {
+    logger.error('❌ DeepSeek API Error', {
       error: error.message,
       totalTime,
       ip: req.ip,
       stack: error.stack,
     });
 
+    // Ensure response is still valid JSON
     res.status(500).json({
-      error: 'DeepSeek API call via OpenRouter failed',
+      error: 'DeepSeek API call failed',
       details: error.message,
       metadata: {
         processingTime: totalTime,
@@ -90,13 +110,13 @@ router.post('/deepseek', ai, validateDeepSeek, async (req, res) => {
 // ===============================
 // POST /gemini
 // ===============================
-router.post('/gemini', ai, validateGemini, async (req, res) => {
+router.post('/gemini', async (req, res) => {
   const { input } = req.body;
   const startTime = Date.now();
 
   logger.info('Gemini request received', {
     ip: req.ip,
-    inputLength: input.length,
+    inputLength: input?.length,
     userAgent: req.get('User-Agent'),
   });
 
@@ -105,7 +125,7 @@ router.post('/gemini', ai, validateGemini, async (req, res) => {
     const output = result.response.text();
     const totalTime = Date.now() - startTime;
 
-    logger.info('Gemini response successful', {
+    logger.info('✅ Gemini response successful', {
       totalTime,
       outputLength: output.length,
     });
@@ -120,7 +140,7 @@ router.post('/gemini', ai, validateGemini, async (req, res) => {
   } catch (error) {
     const totalTime = Date.now() - startTime;
 
-    logger.error('Gemini API Error', {
+    logger.error('❌ Gemini API Error', {
       error: error.message,
       totalTime,
       ip: req.ip,

@@ -1,254 +1,155 @@
+// server/index.js
 const express = require('express');
 const cors = require('cors');
-const bcrypt = require('bcryptjs');
-const rateLimit = require('express-rate-limit');
+const bodyParser = require('body-parser');
+const { OpenAI } = require('openai');
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 
+// Middleware
+const { validateDeepSeek, validateGemini } = require('./middleware/validation');
+const { getRateLimiters } = require('./middleware/rateLimit');
 const logger = require('./utils/logger');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Import routes
-const apiRoutes = require('./routes/api');
+// Rate limiter
+const { ai } = getRateLimiters();
 
-// Security middleware
-app.use(cors({
-  origin: process.env.CLIENT_URL || 'http://localhost:3000',
-  credentials: true
-}));
-
-// Body parsing middleware
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true, limit: '10mb' }));
-
-// Request logging middleware
-app.use((req, res, next) => {
-  logger.info(`${req.method} ${req.path}`, {
-    ip: req.ip,
-    userAgent: req.get('User-Agent')
-  });
-  next();
-});
+// Basic middleware
+app.use(cors());
+app.use(bodyParser.json());
 
 // Health check endpoint
-app.get('/health', (req, res) => {
-  res.json({
-    status: 'OK',
-    timestamp: new Date().toISOString(),
-    uptime: process.uptime()
-  });
+app.get("/health", (req, res) => {
+  res.status(200).json({ message: "Server is healthy" });
 });
 
-// API routes with enhanced password handling
-app.use('/api', (req, res, next) => {
-  // Enhanced password validation and hashing for registration
-  if (req.path === '/users/register' && req.method === 'POST') {
-    // Apply validation middleware
-    validateUserRegister(req, res, async (validationError) => {
-      if (validationError) {
-        return res.status(400).json({
-          error: 'Validation failed',
-          details: validationError.details,
-          metadata: {
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
-
-      try {
-        const { username, email, password } = req.body;
-
-        // Additional password strength validation
-        const passwordStrength = validatePasswordStrength(password);
-        if (!passwordStrength.isValid) {
-          return res.status(400).json({
-            error: 'Password does not meet security requirements',
-            details: passwordStrength.errors,
-            metadata: {
-              timestamp: new Date().toISOString()
-            }
-          });
-        }
-
-        // Hash password with salt rounds
-        const saltRounds = 12;
-        const hashedPassword = await bcrypt.hash(password, saltRounds);
-
-        // Replace plain password with hashed password
-        req.body.password = hashedPassword;
-
-        logger.info('Password hashed successfully for registration', {
-          username,
-          email,
-          hashed: true
-        });
-
-        next();
-      } catch (error) {
-        logger.error('Password hashing failed', {
-          error: error.message,
-          username: req.body.username,
-          email: req.body.email
-        });
-
-        return res.status(500).json({
-          error: 'Failed to process registration',
-          metadata: {
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
-    });
-  }
-  // Enhanced password validation for login
-  else if (req.path === '/users/login' && req.method === 'POST') {
-    validateUserLogin(req, res, (validationError) => {
-      if (validationError) {
-        return res.status(400).json({
-          error: 'Validation failed',
-          details: validationError.details,
-          metadata: {
-            timestamp: new Date().toISOString()
-          }
-        });
-      }
-      next();
-    });
-  }
-  else {
-    next();
-  }
+// ===============================
+// OpenRouter + DeepSeek Setup
+// ===============================
+const openai = new OpenAI({
+  baseURL: 'https://openrouter.ai/api/v1',
+  apiKey: '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', // Using your existing DeepSeek API key
+  defaultHeaders: {
+    'HTTP-Referer': 'http://localhost:3000', // Frontend domain
+    'X-Title': 'My AI App',
+  },
 });
 
-// Password strength validation function
-function validatePasswordStrength(password) {
-  const errors = [];
-  const checks = {
-    length: password.length >= 6 && password.length <= 128,
-    lowercase: /[a-z]/.test(password),
-    uppercase: /[A-Z]/.test(password),
-    number: /\d/.test(password),
-    special: /[!@#$%^&*(),.?":{}|<>]/.test(password)
-  };
+// ===============================
+// Gemini Setup
+// ===============================
+const genAI = new GoogleGenerativeAI('AIzaSyCJg8GByZGMhRrn0bYHs3BBEWcfGjVs6h8'); // Using your existing Gemini API key
+const geminiModel = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
-  if (!checks.length) {
-    errors.push('Password must be between 6 and 128 characters');
-  }
-  if (!checks.lowercase) {
-    errors.push('Password must contain at least one lowercase letter');
-  }
-  if (!checks.uppercase) {
-    errors.push('Password must contain at least one uppercase letter');
-  }
-  if (!checks.number) {
-    errors.push('Password must contain at least one number');
-  }
-  if (!checks.special) {
-    errors.push('Password must contain at least one special character (!@#$%^&*(),.?":{}|<>)');
-  }
+// ===============================
+// POST /api/deepseek
+// ===============================
+app.post('/api/deepseek', ai, validateDeepSeek, async (req, res) => {
+  const { input } = req.body;
+  const startTime = Date.now();
 
-  return {
-    isValid: Object.values(checks).every(check => check),
-    errors,
-    strength: Object.values(checks).filter(check => check).length
-  };
-}
-
-// Use API routes
-app.use('/api', apiRoutes);
-
-// Error handling middleware
-app.use((error, req, res, next) => {
-  logger.error('Unhandled error', {
-    error: error.message,
-    stack: error.stack,
-    path: req.path,
-    method: req.method,
-    ip: req.ip
+  logger.info('DeepSeek (via OpenRouter) request received', {
+    ip: req.ip,
+    inputLength: input.length,
+    userAgent: req.get('User-Agent'),
   });
 
-  res.status(500).json({
-    error: 'Internal server error',
-    message: process.env.NODE_ENV === 'development' ? error.message : 'Something went wrong',
-    metadata: {
-      timestamp: new Date().toISOString()
-    }
-  });
-});
-
-// 404 handler
-app.use('*', (req, res) => {
-  res.status(404).json({
-    error: 'Endpoint not found',
-    path: req.originalUrl,
-    metadata: {
-      timestamp: new Date().toISOString()
-    }
-  });
-});
-
-// Start server
-const startServer = async () => {
   try {
-    // Start listening
-    app.listen(PORT, () => {
-      logger.info(`Server running on port ${PORT}`, {
-        port: PORT,
-        environment: process.env.NODE_ENV || 'development',
-        timestamp: new Date().toISOString()
-      });
-      
-      console.log(`🚀 Server running on port ${PORT}`);
-      console.log(`📊 Environment: ${process.env.NODE_ENV || 'development'}`);
-      console.log(`🔗 Health check: http://localhost:${PORT}/health`);
+    const completion = await openai.chat.completions.create({
+      model: 'deepseek/deepseek-r1-0528:free',
+      messages: [
+        { role: 'system', content: 'You are a helpful assistant.' },
+        { role: 'user', content: input },
+      ],
+    });
+
+    const output = completion.choices?.[0]?.message?.content || 'No response';
+    const totalTime = Date.now() - startTime;
+
+    logger.info('DeepSeek (via OpenRouter) response successful', {
+      totalTime,
+      outputLength: output.length,
+    });
+
+    res.json({
+      output,
+      metadata: {
+        processingTime: totalTime,
+        timestamp: new Date().toISOString(),
+      },
     });
   } catch (error) {
-    logger.error('Failed to start server', {
+    const totalTime = Date.now() - startTime;
+
+    logger.error('DeepSeek API (via OpenRouter) Error', {
       error: error.message,
-      stack: error.stack
+      totalTime,
+      ip: req.ip,
+      stack: error.stack,
     });
-    
-    console.error('❌ Failed to start server:', error.message);
-    process.exit(1);
+
+    res.status(500).json({
+      error: 'DeepSeek API call via OpenRouter failed',
+      details: error.message,
+      metadata: {
+        processingTime: totalTime,
+        timestamp: new Date().toISOString(),
+      },
+    });
   }
-};
-
-// Graceful shutdown
-process.on('SIGTERM', () => {
-  logger.info('SIGTERM received, shutting down gracefully');
-  console.log('🛑 Shutting down gracefully...');
-  process.exit(0);
 });
 
-process.on('SIGINT', () => {
-  logger.info('SIGINT received, shutting down gracefully');
-  console.log('🛑 Shutting down gracefully...');
-  process.exit(0);
-});
+// ===============================
+// POST /api/gemini
+// ===============================
+app.post('/api/gemini', ai, validateGemini, async (req, res) => {
+  const { input } = req.body;
+  const startTime = Date.now();
 
-// Handle uncaught exceptions
-process.on('uncaughtException', (error) => {
-  logger.error('Uncaught Exception', {
-    error: error.message,
-    stack: error.stack
+  logger.info('Gemini request received', {
+    ip: req.ip,
+    inputLength: input.length,
+    userAgent: req.get('User-Agent'),
   });
-  
-  console.error('💥 Uncaught Exception:', error.message);
-  process.exit(1);
+
+  try {
+    const result = await geminiModel.generateContent(input);
+    const output = result.response.text();
+    const totalTime = Date.now() - startTime;
+
+    logger.info('Gemini response successful', {
+      totalTime,
+      outputLength: output.length,
+    });
+
+    res.json({
+      output,
+      metadata: {
+        processingTime: totalTime,
+        timestamp: new Date().toISOString(),
+      },
+    });
+  } catch (error) {
+    const totalTime = Date.now() - startTime;
+
+    logger.error('Gemini API Error', {
+      error: error.message,
+      totalTime,
+      ip: req.ip,
+      stack: error.stack,
+    });
+
+    res.status(500).json({
+      error: 'Gemini API call failed',
+      details: error.message,
+      metadata: {
+        processingTime: totalTime,
+        timestamp: new Date().toISOString(),
+      },
+    });
+  }
 });
 
-// Handle unhandled promise rejections 
-process.on('unhandledRejection', (reason, promise) => {
-  logger.error('Unhandled Rejection', {
-    reason: reason,
-    promise: promise
-  });
-  
-  console.error('💥 Unhandled Rejection at:', promise, 'reason:', reason);
-  process.exit(1);
-});
-
-// Start the server
-startServer();
-
-module.exports = app;
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
